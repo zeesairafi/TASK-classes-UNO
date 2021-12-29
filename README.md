@@ -2,6 +2,8 @@
 
 You are going to make a super cool UNO Game! 😎
 
+![Uno Image](https://user-images.githubusercontent.com/8784343/147656090-3410c967-3b0e-4f3b-8eb0-0275fb262658.png)
+
 ## Instructions
 
 - [Fork this repo](https://github.com/JoinCODED/TASK-classes-UNO)
