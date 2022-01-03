@@ -31,7 +31,35 @@
 let cards = []; // You will use this array in step 6
 
 // Continue the code here 👇🏻
+class Card{
+ constructor(number, color){
+  this.number = number;
+  this.color = color;
 
+}
+image = () => {
+  return `./images/${this.color}_${this.number}.png`;
+}
+}
+const Green = new Card(4, "Green");
+const Blue = new Card(9, "Blue");
+const Red = new Card(3, "Red");
+const Yellow = new Card(7, "Yellow"); 
+
+cards.push(Green);
+cards.push(Blue);
+cards.push(Red);
+cards.push(Yellow);
+console.log(Green);
+console.log(Blue);
+console.log(Red);
+console.log(Yellow);
+
+//for (i =1; i < 81; i++) {
+//  i<=10? cards.push(new Card(i-1, "Green")): i<=20? cards.push(new Card(i-11, "Yellow")): i<=30? cards.push(new Card(i-21, "Blue")): i<=40? cards.push(new Card(i-31, "Red")): i<=50? cards.push(new Card(i-41, "Green")): i<=60? cards.push(new Card(i-51, "Yellow")): i<=70? cards.push(i-61, "Blue"): i<=80? cards.push(new Card(i-71, "Red")): true
+  
+//}
+//cards.push();
 /**
  *
  * Don't touch this code
